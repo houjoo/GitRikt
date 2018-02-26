@@ -1,0 +1,102 @@
+HTML
+
+<div id="name"> insert content here </div>
+opening tag			    closing tag
+(Everything in the < ___ > wont be shown)
+
+Headings
+HTML has 6 levels of heading <h1> to <h6>
+<h1> This is main heading </h1>
+<h2> This is level 2 heading </h2>
+     (    Text of heading   )
+
+Paragraph
+<p> Paragraph written in here (can be more than 1 sentence) </p>
+(For new line, just </p> then start a new paragraph)
+Or for new line, can use line break <br/>
+Line break with a line <hr/>
+
+<b> Bold </b> and <i> Italic </i>
+
+<b> Bold
+<strong> Important text
+<i> Italic
+<em> Emphasized text
+<mark> Marked text
+<small> Small text
+<del> Deleted text
+<ins> Inserted text
+<sub> Subscript
+<sup> Superscript
+<!==> Comments
+
+Lists
+1) Ordered <ol> 
+2) Unordered <ul>
+<li> List item </i>
+
+Links (hyperlink element)
+<a href="http://codefor.asia/"> code for asia </a>
+href - hyperlink reference
+Clicking on "code for asia" opens the href.
+
+Link (id)
+<a href="#top"> JUMP TO TOP </a>
+But have to assign what is #top
+eg. <h1 id="top"> This is the top </h1> (This will be "top")
+
+Images
+<img src = "http://  " /img>
+
+Tables
+<table> - HTML table
+<tr> - Each table row
+<th> - Table header (by default, table headings are bold and centered
+<td> - table data/cell
+<th scope="row/col"> _____ </th> - row or column heading
+<td colspan="2"> ChickenMcNuggests </td> - spans 2 columns
+
+eg.
+<table>
+
+<tr>
+<td> 1 </td>
+<td> 2 </td>
+<td> 3 </td>			Table
+</tr>				1 2 3
+				4 5 6	
+<tr>				
+<td> 4 </td>
+<td> 5 </td>
+<td> 6 </td>
+</tr>
+
+</table>
+
+Aligning texts
+style="text-align:center" within the opening table tag before the >
+
+Forms
+-action
+<form action="/action_page.php"> (php is server side code)
+</form>
+
+-method
+ -> form can be sent using one of 2 methods - "get" or "post"
+<form action="/action_page.php" method="get">
+<form action="/action_page.php" method="post">
+
+-id
+  -> Id attributes identify the elements created
+
+eg.
+<input type="text" name="username" size="15" maxlength="10"/>
+<input type="radio" name="genre" value="classical" checked="checked"/>
+
+CSS
+-> Formating and beautifying "website"
+
+eg. p{ background-color: red;
+	font: arial;
+	...
+     }
